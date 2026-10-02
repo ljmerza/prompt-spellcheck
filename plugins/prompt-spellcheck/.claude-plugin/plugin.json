@@ -2,7 +2,15 @@
   "name": "prompt-spellcheck",
   "version": "0.1.0",
   "description": "Fixes spelling and typos in each typed prompt with a fast model before the main model reads it",
-  "author": { "name": "Leonardo Merza" },
+  "icon": "./assets/icon.png",
+  "author": {
+    "name": "Leonardo Merza"
+  },
   "license": "MIT",
-  "keywords": ["spellcheck", "typos", "prompt", "hooks"]
+  "keywords": [
+    "spellcheck",
+    "typos",
+    "prompt",
+    "hooks"
+  ]
 }

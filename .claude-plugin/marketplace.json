@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "prompt-spellcheck",
+  "description": "Prompt spellcheck for Claude Code: fixes typos before the model reads your prompt.",
+  "owner": { "name": "Leonardo Merza" },
+  "plugins": [
+    {
+      "name": "prompt-spellcheck",
+      "source": "./plugins/prompt-spellcheck",
+      "description": "Fixes spelling and typos in each typed prompt with a fast model before the main model reads it.",
+      "category": "productivity",
+      "keywords": ["spellcheck", "typos", "prompt"]
+    }
+  ]
+}

@@ -15,14 +15,14 @@ When you press Enter, the plugin sends the prompt to a small, fast model (Haiku)
 From a marketplace:
 
 ```
-/plugin marketplace add OWNER/prompt-spellcheck
+/plugin marketplace add ljmerza/prompt-spellcheck
 /plugin install prompt-spellcheck@prompt-spellcheck
 ```
 
 From a clone:
 
 ```
-git clone https://github.com/OWNER/prompt-spellcheck.git
+git clone https://github.com/ljmerza/prompt-spellcheck.git
 claude --plugin-dir prompt-spellcheck/plugins/prompt-spellcheck
 ```
 
